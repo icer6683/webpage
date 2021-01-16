@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/icer6683.github.io/static/css/main.89708566.chunk.css",
-    "main.js": "/icer6683.github.io/static/js/main.313c45cd.chunk.js",
-    "main.js.map": "/icer6683.github.io/static/js/main.313c45cd.chunk.js.map",
+    "main.css": "/icer6683.github.io/static/css/main.1603d5ba.chunk.css",
+    "main.js": "/icer6683.github.io/static/js/main.a35c043d.chunk.js",
+    "main.js.map": "/icer6683.github.io/static/js/main.a35c043d.chunk.js.map",
     "runtime-main.js": "/icer6683.github.io/static/js/runtime-main.bf3f35c9.js",
     "runtime-main.js.map": "/icer6683.github.io/static/js/runtime-main.bf3f35c9.js.map",
-    "static/js/2.1d9961b5.chunk.js": "/icer6683.github.io/static/js/2.1d9961b5.chunk.js",
-    "static/js/2.1d9961b5.chunk.js.map": "/icer6683.github.io/static/js/2.1d9961b5.chunk.js.map",
+    "static/css/2.2aa38b9c.chunk.css": "/icer6683.github.io/static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.27f4fe3c.chunk.js": "/icer6683.github.io/static/js/2.27f4fe3c.chunk.js",
+    "static/js/2.27f4fe3c.chunk.js.map": "/icer6683.github.io/static/js/2.27f4fe3c.chunk.js.map",
     "index.html": "/icer6683.github.io/index.html",
-    "static/css/main.89708566.chunk.css.map": "/icer6683.github.io/static/css/main.89708566.chunk.css.map",
-    "static/js/2.1d9961b5.chunk.js.LICENSE.txt": "/icer6683.github.io/static/js/2.1d9961b5.chunk.js.LICENSE.txt",
+    "static/css/2.2aa38b9c.chunk.css.map": "/icer6683.github.io/static/css/2.2aa38b9c.chunk.css.map",
+    "static/css/main.1603d5ba.chunk.css.map": "/icer6683.github.io/static/css/main.1603d5ba.chunk.css.map",
+    "static/js/2.27f4fe3c.chunk.js.LICENSE.txt": "/icer6683.github.io/static/js/2.27f4fe3c.chunk.js.LICENSE.txt",
+    "static/media/Andrew_Lou_Resume.fadd323b.pdf": "/icer6683.github.io/static/media/Andrew_Lou_Resume.fadd323b.pdf",
+    "static/media/cooking.0df769dd.svg": "/icer6683.github.io/static/media/cooking.0df769dd.svg",
+    "static/media/exercise.1134e607.svg": "/icer6683.github.io/static/media/exercise.1134e607.svg",
     "static/media/face.30039550.jpeg": "/icer6683.github.io/static/media/face.30039550.jpeg",
-    "static/media/video.1be58c3a.mp4": "/icer6683.github.io/static/media/video.1be58c3a.mp4"
+    "static/media/logo.85846fe5.png": "/icer6683.github.io/static/media/logo.85846fe5.png",
+    "static/media/music.31dc902b.svg": "/icer6683.github.io/static/media/music.31dc902b.svg",
+    "static/media/reading.7566db93.svg": "/icer6683.github.io/static/media/reading.7566db93.svg",
+    "static/media/video.1be58c3a.mp4": "/icer6683.github.io/static/media/video.1be58c3a.mp4",
+    "static/media/walking.05712ae6.svg": "/icer6683.github.io/static/media/walking.05712ae6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.bf3f35c9.js",
-    "static/js/2.1d9961b5.chunk.js",
-    "static/css/main.89708566.chunk.css",
-    "static/js/main.313c45cd.chunk.js"
+    "static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.27f4fe3c.chunk.js",
+    "static/css/main.1603d5ba.chunk.css",
+    "static/js/main.a35c043d.chunk.js"
   ]
 }
