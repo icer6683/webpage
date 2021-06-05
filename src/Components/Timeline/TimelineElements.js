@@ -12,7 +12,7 @@ let TimelineElements = [
         link: "https://undergrad.wharton.upenn.edu/"
     },
     {
-        id: 1,
+        id: 2,
         title: "Freshman year @ Cornell",
         location: "Ithaca, New York",
         description: "I was on the Economics and Computer Science double major track. ",
@@ -22,7 +22,7 @@ let TimelineElements = [
         link: "https://www.cornell.edu/"
     },
     {
-        id: 2,
+        id: 3,
         title: "Summer Intern @ Yale Center of Analytical Sciences",
         location: "New Haven, Connecticut",
         description: "A participant of the Yale Young Scholars program, I returned the following year to help organize the program. I led R programming sessions and clinical research methods as a TA. I mentored four Young Scholars, preparing students for the formal presentation on analysis of an Autism Spectrum Disorder clinical trial data set. ",
@@ -32,7 +32,7 @@ let TimelineElements = [
         link: "https://publichealth.yale.edu/ycas/training/young_scholars/"
     },
     {
-        id: 3,
+        id: 4,
         title: "High School Diploma @ Cheshire High School",
         location: "Cheshire, Connecticut",
         description: "Valedictorian",
