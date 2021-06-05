@@ -1,0 +1,92 @@
+#experiences{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+.topline{
+    color: #01bf71;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center;
+    padding: 45px 0 0 0;
+}
+.title{
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #010606;
+
+    @media screen and (max-width: 480px){
+        font-size: 32px;
+    }
+}
+
+h3{
+    padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+    padding: 2rem 3em !important;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.vertical-timeline-element{
+    color: black;
+}
+
+
+.date {
+    color: rgb(151, 151, 151);
+}
+
+#description {
+    margin: 1.5em 0 2em 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buttonTime{
+    max-width: 195px;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    color: #010606;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.workButton{
+    background: #06bf71;
+}
+
+.workButton:hover{
+    background:white;
+}
+
+.schoolButton{
+    background: #65E4FF;
+}
+
+.schoolButton:hover{
+    background:white;
+}
+
+.custom-line::before {
+    background: #424242;
+  }
+
+
+@media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+  }

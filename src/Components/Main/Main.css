@@ -1,0 +1,28 @@
+.buttonMain{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: #010606;
+    text-decoration: none;
+    border-radius: 50px;
+    white-space: nowrap;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    padding: 5px;
+}
+
+.whartonLink{
+    color: #01bf71;
+    text-decoration: none;
+}
+
+.buttonMain:hover{
+    transition: all 0.2s ease-in-out;
+    background-color: #01BF71;
+}
+
