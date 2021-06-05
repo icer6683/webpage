@@ -1,4 +1,3 @@
-import { ArrowBack, ArrowRight, NoEncryption } from '@material-ui/icons';
 import face from '../../Images/face.jpeg';
 import walking from '../../Images/walking.svg';
 
