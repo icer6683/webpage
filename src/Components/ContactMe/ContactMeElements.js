@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  min-height: 780px;
+  min-height:800px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -18,10 +18,10 @@ export const Container = styled.div`
 
 export const FormWrap = styled.div`
   height: 100%;
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  margin-top: 40px;
+
   @media screen and (max-width: 400px) {
     height: 80%;
   }
@@ -105,7 +105,7 @@ export const FormButton = styled.button`
   border: none;
   border-radius: 4px;
   color: #fff;
-  font-size: 20px;
+  font-size: 20npm px;
   cursor: pointer;
   `;
 
@@ -114,15 +114,16 @@ export const Text = styled.span`
   margin-top: 24px;
   color: #fff;
   font-size: 14px;
+  text-decoration: none;
   `;
 
 export const ContactBg = styled.div`
   position: absolute;
-  top: 0px;
+  top: 0;
   right: 0;
   botton: 0;
   left: 0;
-  height: 100%;
-  overflow: hidden;
+  height: 800px;
   width: 100%;
+  overflow: hidden;
   `;

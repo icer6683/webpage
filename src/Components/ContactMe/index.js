@@ -25,8 +25,8 @@ const ContactMeSection = () => {
         <ContactBg>
           <VideoBg autoPlay loop muted src={Video} type='video/mp4' style={{ WebkitMediaControls: 'display(none)' }} />
         </ContactBg>
+        <Icon to="/"><img src={logo} style={{ width: '50px', borderRadius: '7px' }}></img></Icon>
         <FormWrap>
-          <Icon to="/"><img src={logo} style={{ width: '50px', borderRadius: '7px' }}></img></Icon>
           <FormContent>
             <Form action="#">
               <FormH1>
