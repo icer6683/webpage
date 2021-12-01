@@ -93,10 +93,11 @@ export const FormInput = styled.input`
 export const FormLong = styled.textarea`
   padding: 16px 16px;
   margin-bottom: 32px;
-  height: 100px;
   border: none;
+  height: 100px;
   border-radius: 4px;
   wrap: true;
+  resize: none;
 `;
 
 export const FormButton = styled.button`

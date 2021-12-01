@@ -50,13 +50,13 @@ const ContactMeSection = () => {
                 Contact me
               </FormH1>
               <FormLabel htmlFor='for'>Email</FormLabel>
-              <FormInput type='email' required />
+              <FormInput type='email' required name='email' />
               <FormLabel htmlFor='for'>Name</FormLabel>
-              <FormInput type='name' required />
+              <FormInput type='name' required name='name' />
               <FormLabel htmlFor='for'>Subject</FormLabel>
-              <FormInput type='subject' required />
+              <FormInput type='subject' required name='subject' />
               <FormLabel htmlFor='for'>Message</FormLabel>
-              <FormLong type='message' required />
+              <FormLong type='message' required name='message' />
               <FormButton type='submit' value="Send"> Submit</FormButton>
             </Form>
           </FormContent>
