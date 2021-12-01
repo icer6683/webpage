@@ -11,13 +11,14 @@ import {
   FormButton,
   Text
 } from './ContactMeElements';
+import logo from '../logo.png';
 
-const ContactMe = () => {
+const ContactMeSection = () => {
   return (
     <>
       <Container>
         <FormWrap>
-          <Icon to="/">dolla</Icon>
+          <Icon to="/"><img src={logo} style={{ width: '50px', borderRadius: '7px' }}></img></Icon>
           <FormContent>
             <Form action="3">
               <FormH1>
@@ -38,4 +39,4 @@ const ContactMe = () => {
   )
 }
 
-export default ContactMe
+export default ContactMeSection

@@ -31,18 +31,23 @@ export const FormWrap = styled.div`
 export const Icon = styled(Link)`
   margin-left: 32px;
   margin-top; 32px;
-  text-decoration: none;
   color: #fff;
   font-weight: 700;
   font-size: 32px;
   
+  justify-self: flex-start;
+  cursor: pointer;
+  display:flex;
+  align-items: center;
+  text-decoration: none;
+
   @media screen and (max-width: 480px) {
     margin-left: 16px;
     margin-top: 8px;
   }
   `;
 
-export const FormContent = styled.dev`
+export const FormContent = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -92,7 +97,7 @@ export const FormInput = styled.input`
 export const FormButton = styled.button`
   background: #01bf71;
   padding: 16px 0;
-  border: nonel
+  border: none;
   border-radius: 4px;
   color: #fff;
   font-size: 20px;
