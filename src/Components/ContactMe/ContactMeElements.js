@@ -32,14 +32,11 @@ export const Icon = styled(Link)`
   margin-left: 32px;
   margin-top; 32px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 70;
   font-size: 32px;
-  
-  justify-self: flex-start;
-  cursor: pointer;
-  display:flex;
-  align-items: center;
-  text-decoration: none;
+  top: 13px;
+  left: 16px;
+  position: relative;
 
   @media screen and (max-width: 480px) {
     margin-left: 16px;

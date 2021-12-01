@@ -12,7 +12,6 @@ import {
   Text
 } from './ContactMeElements';
 import logo from '../logo.png';
-
 const ContactMeSection = () => {
   return (
     <>
@@ -20,7 +19,7 @@ const ContactMeSection = () => {
         <FormWrap>
           <Icon to="/"><img src={logo} style={{ width: '50px', borderRadius: '7px' }}></img></Icon>
           <FormContent>
-            <Form action="3">
+            <Form action="#">
               <FormH1>
                 Contact me
               </FormH1>
