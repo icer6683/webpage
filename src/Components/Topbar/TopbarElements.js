@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import {FaTimes} from 'react-icons/fa'
-import {Link as LinkS} from 'react-scroll'
-import {Link as LinkR} from 'react-router-dom'
+import { FaTimes } from 'react-icons/fa'
+import { Link as LinkS } from 'react-scroll'
+import { Link as LinkR } from 'react-router-dom'
 import Popup from 'reactjs-popup';
 
 export const TopbarContainer = styled.aside`
@@ -106,3 +106,24 @@ export const StyledPopup = styled(Popup)`
       color: #01bf71;
   }
 `;
+
+export const TopBtnLink = styled(LinkR)`
+        border-radius: 50px;
+        background: #01bf71;
+        white-space: nowrap;
+        padding: 10px 22px;
+        color: #010606;
+        font-size: 1.5rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+
+        &:hover {
+            transition: all 0.2s ease-in-out;
+            background: #fff;
+            color: #010606;
+
+        }
+    `;

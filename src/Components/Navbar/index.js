@@ -66,7 +66,7 @@ const Navbar = ({ toggle }) => {
                         </NavItems>
                     </NavMenu>
                     <NavButton>
-                        <NavBtn> <NavBtnLink to='/contactme'>Contact Me</NavBtnLink></NavBtn>
+                        <NavBtn> <NavBtnLink to='/contactme' onClick={toggleHome}>Contact Me</NavBtnLink></NavBtn>
                     </NavButton>
                 </NavbarContainer>
             </Nav>

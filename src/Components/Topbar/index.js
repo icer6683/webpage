@@ -1,8 +1,12 @@
 import React from 'react';
-import { TopbarContainer, Icon, CloseIcon, TopbarWrapper, TopbarMenu, TopbarLink, TopBtnWrap, TopbarRoute, TopbarContactMe, StyledPopup }
+import { TopbarContainer, Icon, CloseIcon, TopbarWrapper, TopbarMenu, TopbarLink, TopBtnWrap, TopbarRoute, TopbarContactMe, StyledPopup, TopBtnLink }
     from './TopbarElements';
+import { animateScroll as scroll } from 'react-scroll';
 
 const Topbar = ({ isOpen, toggle }) => {
+    const changeTop = () => {
+        scroll.scrollToTop();
+    }
     return (
         <TopbarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
@@ -16,11 +20,7 @@ const Topbar = ({ isOpen, toggle }) => {
                     <TopbarLink to="interests" onClick={toggle}>Interests</TopbarLink>
                 </TopbarMenu>
                 <TopBtnWrap>
-                    <StyledPopup trigger={<TopbarRoute> Contact Me</TopbarRoute>} position="bottom center" arrow="none">
-                        {close => (<TopbarContactMe>
-                            Email: andrewlou135@gmail.com <br></br> Phone: (203) 598 1086 <a className="close" onClick={close}>
-                            </a></TopbarContactMe>
-                        )}</StyledPopup>
+                    <TopBtnLink to='/contactme' onClick={changeTop}>Contact Me</TopBtnLink>
                 </TopBtnWrap>
             </TopbarWrapper>
         </TopbarContainer>

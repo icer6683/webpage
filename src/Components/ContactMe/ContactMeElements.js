@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  min-height:800px;
+  min-height: 900px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -123,7 +123,7 @@ export const ContactBg = styled.div`
   right: 0;
   botton: 0;
   left: 0;
-  height: 800px;
+  height: 900px;
   width: 100%;
   overflow: hidden;
   `;
