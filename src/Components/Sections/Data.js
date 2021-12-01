@@ -37,3 +37,22 @@ export const homeObjTwo = {
     round: true,
     show: 'none'
 }
+
+export const homeObjThree = {
+    id: 'updates',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Updates',
+    headline: "Current",
+    description: "At Cornell, I was involved with the Student Activities Funding Commission, Association of Computer Science Undergraduates, Ascend Business Club and Cornell Undergraduate Research Board. \n \nIn addition, I served as a consultant for CS 2110: Object-Oriented Programming and Data Structures in spring 2021. ",
+    shape: false,
+    imgStart: false,
+    img: walking,
+    alt: 'Absorbed in Work',
+    dark: false,
+    primary: true,
+    darkText: false,
+    round: true,
+    show: 'none'
+}

@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import {Link as LinkR} from 'react-router-dom'
-import {Link as LinkS} from 'react-scroll'
+import { Link as LinkR } from 'react-router-dom'
+import { Link as LinkS } from 'react-scroll'
 import Popup from 'reactjs-popup';
-    export const Nav = styled.nav`
-        background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
+export const Nav = styled.nav`
+        background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
         height: 80px;
         display: flex;
         margin-top: -80px
@@ -19,7 +19,7 @@ import Popup from 'reactjs-popup';
         }
     `;
 
-    export const NavbarContainer = styled.div`
+export const NavbarContainer = styled.div`
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -28,7 +28,7 @@ import Popup from 'reactjs-popup';
         padding: 0 24px;
     `;
 
-    export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkR)`
         color: #fff;
         justify-self: flex-start;
         cursor: pointer;
@@ -40,7 +40,7 @@ import Popup from 'reactjs-popup';
         text-decoration: none;
     `;
 
-    export const MobileIcon = styled.div`
+export const MobileIcon = styled.div`
         display: none;
 
         @media screen and (max-width: 768px){
@@ -54,7 +54,7 @@ import Popup from 'reactjs-popup';
             color: #fff;
         }
     `;
-    export const NavMenu = styled.ul`
+export const NavMenu = styled.ul`
         display: flex;
         align-items: center;
         list-style: none;
@@ -66,10 +66,10 @@ import Popup from 'reactjs-popup';
         }
     `;
 
-    export const NavItems  = styled.li`
+export const NavItems = styled.li`
         height: 80px;
     `;
-    export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkS)`
         color: #fff;
         display: flex;
         align-items: center;
@@ -85,14 +85,14 @@ import Popup from 'reactjs-popup';
             border-bottom: 4px solid #01bf71;
         }
     `;
-    export const NavButton = styled.nav`
+export const NavButton = styled.nav`
     display: flex;
     align-items: center;
         @media screen and (max-width: 768px){
             display:none;
         }
     `;
-    export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkR)`
         border-radius: 50px;
         background: #01bf71;
         white-space: nowrap;
@@ -113,7 +113,7 @@ import Popup from 'reactjs-popup';
         }
     `;
 
-    export const StyledPopup = styled(Popup)`
+export const StyledPopup = styled(Popup)`
   &-arrow {
       display: none;
   }
@@ -170,4 +170,7 @@ export const NavbarContactMe = styled.div`
     text-decoration: none;
     font-family: 'Open Sans', sans serif;
 
+`
+export const NavOutLink = styled(LinkR)`
+    text-decoration: none;
 `

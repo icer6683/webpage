@@ -2,8 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  min-height: 692px;
-  position: fixed;
+  min-height: 780px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -91,6 +90,15 @@ export const FormInput = styled.input`
   border-radius: 4px;
 `;
 
+export const FormLong = styled.textarea`
+  padding: 16px 16px;
+  margin-bottom: 32px;
+  height: 100px;
+  border: none;
+  border-radius: 4px;
+  wrap: true;
+`;
+
 export const FormButton = styled.button`
   background: #01bf71;
   padding: 16px 0;
@@ -108,3 +116,13 @@ export const Text = styled.span`
   font-size: 14px;
   `;
 
+export const ContactBg = styled.div`
+  position: absolute;
+  top: 0px;
+  right: 0;
+  botton: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  `;

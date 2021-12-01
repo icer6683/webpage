@@ -4,7 +4,7 @@ import Topbar from '../Components/Topbar';
 import HeroSection from '../Components/Main';
 import Sections from '../Components/Sections';
 import Gallery from '../Components/Gallery';
-import { homeObjOne , homeObjTwo , homeObjThree } from '../Components/Sections/Data';
+import { homeObjOne, homeObjTwo } from '../Components/Sections/Data';
 import Footer from '../Components/Footer'
 import Timeline from '../Components/Timeline';
 const Home = () => {
@@ -15,14 +15,14 @@ const Home = () => {
     };
     return (
         <>
-            <Topbar isOpen= {isOpen} toggle= {toggle}/>
-            <Navbar toggle= {toggle}/>
+            <Topbar isOpen={isOpen} toggle={toggle} />
+            <Navbar toggle={toggle} />
             <HeroSection />
-            <Sections {...homeObjOne}/>
-            <Sections {...homeObjTwo}/>
-            <Timeline/>
-            <Gallery/>
-            <Footer/>
+            <Sections {...homeObjOne} />
+            <Sections {...homeObjTwo} />
+            <Timeline />
+            <Gallery />
+            <Footer />
         </>
     )
 }

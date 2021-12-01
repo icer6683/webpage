@@ -29,9 +29,9 @@ top: -80px;
 right: 0;
 botton: 0;
 left: 0;
-width: 100%;
 height: 100%;
 overflow: hidden;
+width: 100%;
 `
 
 export const VideoBg = styled.video`
@@ -42,6 +42,7 @@ display: flex;
 object-fit: cover;
 background: #232a34;
 pointer-events: none;
+z-index:
 `
 
 export const HeroContent = styled.div`

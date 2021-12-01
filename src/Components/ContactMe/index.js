@@ -9,13 +9,22 @@ import {
   FormLabel,
   FormInput,
   FormButton,
-  Text
+  Text,
+  ContactBg,
+  FormLong
 } from './ContactMeElements';
+import {
+  VideoBg
+} from '../../Components/Main/HeroElements';
 import logo from '../logo.png';
+import Video from '../../Video/video.mp4';
 const ContactMeSection = () => {
   return (
     <>
       <Container>
+        <ContactBg>
+          <VideoBg autoPlay loop muted src={Video} type='video/mp4' style={{ WebkitMediaControls: 'display(none)' }} />
+        </ContactBg>
         <FormWrap>
           <Icon to="/"><img src={logo} style={{ width: '50px', borderRadius: '7px' }}></img></Icon>
           <FormContent>
@@ -28,7 +37,7 @@ const ContactMeSection = () => {
               <FormLabel htmlFor='for'>Name</FormLabel>
               <FormInput type='name' required />
               <FormLabel htmlFor='for'>Message</FormLabel>
-              <FormInput type='message' required />
+              <FormLong type='message' required />
               <FormButton type='submit'> Submit</FormButton>
             </Form>
           </FormContent>
