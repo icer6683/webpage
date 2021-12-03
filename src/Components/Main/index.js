@@ -6,7 +6,7 @@ const HeroSection = ({ shape }) => {
     return (
         <HeroContainer id="home">
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' style={{ WebkitMediaControls: 'display(none)' }} />
+                <VideoBg autoPlay loop playsinline muted src={Video} type='video/mp4' style={{ WebkitMediaControls: 'display(none)' }} />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Hello, I'm Andrew.</HeroH1>
