@@ -42,7 +42,7 @@ display: flex;
 object-fit: cover;
 background: #232a34;
 pointer-events: none;
-z-index:
+z-index:-1;
 `
 
 export const HeroContent = styled.div`

@@ -21,7 +21,7 @@ export const FormWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-top: 40px;
-
+  z-index: 3;
   @media screen and (max-width: 400px) {
     height: 80%;
   }
