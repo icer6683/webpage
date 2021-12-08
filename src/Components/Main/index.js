@@ -2,6 +2,7 @@ import React from 'react';
 import Video from '../../Video/video.mp4';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnMenu, HeroSmall } from './HeroElements';
 import './Main.css';
+import Typewriter from 'typewriter-effect';
 const HeroSection = ({ shape }) => {
     return (
         <HeroContainer id="home">
@@ -9,7 +10,16 @@ const HeroSection = ({ shape }) => {
                 <VideoBg autoPlay loop playsinline muted src={Video} type='video/mp4' style={{ WebkitMediaControls: 'display(none)' }} />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Hello, I'm Andrew.</HeroH1>
+                <HeroH1><Typewriter
+                    onInit={(typewriter) => {
+                        typewriter
+                            .typeString("Hey there, I'm Andrew.")
+                            .pauseFor(1000)
+                            .deleteAll()
+                            .typeString("Nice to meet you!")
+                            .start();
+                    }}
+                /></HeroH1>
                 <HeroP>
                     Sophomore at <a href="https://www.wharton.upenn.edu/" class="whartonLink">Wharton</a>.
                 </HeroP>

@@ -24,6 +24,7 @@
     "save-dev": "0.0.1-security",
     "styled-components": "^5.2.1",
     "typescript": "^4.5.2",
+    "typewriter-effect": "^2.18.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
