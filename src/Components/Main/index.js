@@ -13,10 +13,10 @@ const HeroSection = ({ shape }) => {
                 <HeroH1><Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .typeString("Hey there, I'm Andrew.")
+                            .typeString("Hey there, nice to meet you!")
                             .pauseFor(1000)
                             .deleteAll()
-                            .typeString("Nice to meet you!")
+                            .typeString("I'm Andrew. ")
                             .start();
                     }}
                 /></HeroH1>
